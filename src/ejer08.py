@@ -6,7 +6,6 @@ def error(nro_intervalos,n_test,umbral):
   fallos=0	
   for i in range(n_test):
     a= modulo.aprxpi(nro_intervalos)
-    print a
     valor=abs(a-PI)
     if (valor >= umbral):
       fallos+=1
